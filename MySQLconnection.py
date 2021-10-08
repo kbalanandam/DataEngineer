@@ -4,7 +4,7 @@ from mysql.connector import Error
 try:
     connection = mysql.connector.connect(host='localhost',
                                          database='Dataengineer',
-                                         user='root1',
+                                         user='root',
                                          password='balanandam')
     if connection.is_connected():
         db_Info = connection.get_server_info()
