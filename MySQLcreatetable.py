@@ -4,7 +4,7 @@ try:
     connection = mysql.connector.connect(host='localhost',
                                          database='mydb',
                                          user='root',
-                                         password='balanandm')
+                                         password='balanandam')
 
     mySql_Create_Table_Query = """CREATE TABLE Laptop ( 
                              Id int(11) NOT NULL,
