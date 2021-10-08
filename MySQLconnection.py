@@ -5,7 +5,7 @@ try:
     connection = mysql.connector.connect(host='localhost',
                                          database='dataengineer',
                                          user='root',
-                                         password='root')
+                                         password='balanandam')
     if connection.is_connected():
         db_Info = connection.get_server_info()
         print("Connected to MySQL Server version ", db_Info)
